@@ -7,14 +7,13 @@ unset grid
 unset border
 set border 1
 
-set xrange [-1:14]
+set xrange [-0.2:13.2]
 set yrange [0:1.1]
-set xtics ("" -1, \
+set xtics ( \
 					"{/Symbol t}_{i}" 0, "{/Symbol t}_{i+1}" 1, \
 					"{/Symbol t}_{i}" 2, "{/Symbol t}_{i+1}" 3, "{/Symbol t}_{i+2}" 4, \
 					"{/Symbol t}_{i}" 5, "{/Symbol t}_{i+1}" 6, "{/Symbol t}_{i+2}" 7, "{/Symbol t}_{i+3}" 8, \
-					"{/Symbol t}_{i}" 9, "{/Symbol t}_{i+1}" 10, "{/Symbol t}_{i+2}" 11, "{/Symbol t}_{i+3}" 12, "{/Symbol t}_{i+4}" 13, \
-					"" 14) \
+					"{/Symbol t}_{i}" 9, "{/Symbol t}_{i+1}" 10, "{/Symbol t}_{i+2}" 11, "{/Symbol t}_{i+3}" 12, "{/Symbol t}_{i+4}" 13) \
 					nomirror
 unset ytics
 

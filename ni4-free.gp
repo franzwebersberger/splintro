@@ -7,7 +7,7 @@ unset grid
 unset border
 set border 1
 
-set xrange [0:8]
+set xrange [-0.2:8.2]
 set yrange [0:0.8]
 set xtics ("{/Symbol t}_{i}" 0, \
 					"{/Symbol t}_{i+1}" 1, \
